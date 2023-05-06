@@ -11,7 +11,7 @@ body {
   background: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  color: #282828;
+  color: #66a0aa;
   line-height: 26px;
   padding: 0;
 }
@@ -58,7 +58,7 @@ text-align:center;
 }
 .section-header .section-title {
   font-size: 44px;
-  color: #3B8838;
+  color: #2d4a5a;
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 20px;  
@@ -74,13 +74,15 @@ text-align:center;
   bottom: -5px;
   right: 0;
   width: 60px;
-  background: rgb(59, 136, 56);
+  /*background: rgb(59, 136, 56);*/
+  background: #9c5c94;
   /* border-radius: 50%; */
   margin: 0 auto;
   left: 0;
   right: 0;
   height: 6px;
-  border-bottom: 3px solid #C6FDC4;
+  /*border-bottom: 3px solid #C6FDC4;*/
+  border-bottom: 3px solid #edb4f7;
 }
 
 .btn {
@@ -88,11 +90,11 @@ text-align:center;
   border-radius: 0;
 }
 .btn.btn-primary {
-  background: #50A24C;
+  background: #9c5c94;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background: #409E3C;
+  background: #a189a4;
 }
 .listarrow{
 padding:0px;
@@ -112,7 +114,7 @@ color: #F9690E;
   border-bottom: 1px solid #eee;
   margin-bottom: 15px;
   position: relative;
-  color: #3B8838;
+  color: #2d4a5a;
 }
 .column-title:after {
   content: " ";
@@ -222,7 +224,7 @@ background: #FFF;
 
   #main-nav.navbar-default .navbar-nav > li.open > a,
   #main-nav.navbar-default .navbar-nav > li:hover > a {
-    background: #3B8838; 
+    background: #2d4a5a;
 	
     color: #FFFFFF;
   
@@ -267,7 +269,8 @@ background: #FFF;
 #hero-banner{
   overflow: hidden;
   height: 700px;
-  background: url('../images/banner/banner_brown.png');
+  /*background: url('../images/banner/banner_brown.png');*/
+  background: #8ca9b1;
   background-size:cover;
   color:#fff;
 }
@@ -366,18 +369,21 @@ color: #020202;
 }
 #services, #features {
   padding: 100px 0 75px;
-  background-color: #98DC95;
+  background-color: #d9ccd7;
   border-top: 3px solid #fff;
-  background: url('../images/img2.jpg');      background-size: cover;
+  /*background: url('../images/img2.jpg');   */
+  background: #d1dde0;
+  background-size: cover;
 }
 .media.service-box {
+  color: #2d4a5a;
   margin: 25px 0 36px;
   padding: 20px;
   padding-left: 86px;
   position: relative;
   background: #FFFFFF;
   border-radius: 0 0 20px 0;
-  /* border: #3B8838 2px solid; */
+  /* border: #2d4a5a 2px solid; */
 }
 .media.service-box .pull-left {
   margin-right: 20px;
@@ -399,7 +405,8 @@ color: #020202;
   left: -13px;
   top: -15px;
   vertical-align: middle;
-  background: rgb(59, 136, 56);
+  /*background: rgb(59, 136, 56);*/
+  background: #2c4e5a;
   border-radius: 50%;
   height: 85px;
   border: 6px #fff solid;
@@ -566,12 +573,12 @@ margin-bottom: 15px;
   background: #222222;
   background-size: cover;
   padding: 100px 0;
-  color: #3B8838;
+  color: #2d4a5a;
   background: url('../images/img2.jpg');
   background-size: cover;
 }
 #testimonial h2{
-color: #3B8838;
+color: #2d4a5a;
 }
 #testimonial h4 {
   color: #fff;
@@ -603,7 +610,7 @@ color:#fff;
 color: #3B8837;
 }
 #about .listarrow li{
-color: #3B8838;
+color: #2d4a5a;
 }
 /*Team*/ 
 #our-team {
@@ -617,12 +624,12 @@ color: #3B8838;
 }
 #our-team .team-member .team-info { 
   background: #98DC95;
-  color: #3B8838;
+  color: #2d4a5a;
   padding: 7px 0;
   border-top: 2px solid #fff;
 } 
 #our-team .team-member:hover .social-icons > li > a {
-  color: #3B8838;
+  color: #2d4a5a;
 }
  
 #our-team .social-icons {
@@ -643,10 +650,10 @@ color: #3B8838;
   height: 32px;
   line-height: 32px;
   text-align: center;
-  color: #3B8838;
+  color: #2d4a5a;
   background: transparent;
   border-radius: 3px;
-  border: 1px solid #3B8838;
+  border: 1px solid #2d4a5a;
   margin: 5px 10px;
 }
 /*Testimonial Area*/
@@ -690,7 +697,7 @@ line-height: 22px;
 .single-testimonial h5{
 	padding: 8px 0 0px;
 	font-size: 16px;
-	color: #3B8838;
+	color: #2d4a5a;
 }
  
 .progress {
@@ -778,10 +785,11 @@ margin: 0;
   padding: 100px 0 70px;
 }
 #pricing ul.pricing {
+  color: #9c5c94;
   list-style: none;
   padding: 0;
   margin: 70px 0 30px;
-  border: 1px solid #98DC95; 
+  border: 1px solid #9c5c94;
   padding: 8px;
   text-align: center;
   background: #FFFFFF;
@@ -792,8 +800,14 @@ margin: 0;
 }
 #pricing ul.pricing li.plan-header { 
   padding: 15px 15px 30px;
-  color: #3B8838 !important;
+  color: #2d4a5a !important;
   height: 225px;
+}
+.price {
+  color: #9c5c94;
+}
+.duration{
+  color: #9c5c94;
 }
 #pricing ul.pricing li.plan-header .price-duration {
   position: relative;
@@ -822,23 +836,25 @@ li.plan-purchase .btn {
 #pricing ul.pricing li.plan-header .plan-name {
   margin-top: 10px;
   font-size: 24px;
-  color: #5A5A5A;
+  color: #9c5c94;
   font-weight: bold;
   line-height: 1;
   text-transform: uppercase;
 }
 #pricing ul.pricing.featured {
-  background: #98DC95; 
+  /*background: #98DC95; */
+  background: #d9ccd7;
   border: 0;
   border: 1px solid #D0D0D0;
 }
 #pricing ul.pricing.featured  li.plan-header .price-duration{
-color: #3B8838;
+color: #9c5c94;
 }
 #pricing ul.pricing.featured li.plan-header {
+  color: #9c5c94;;
 }
 #pricing ul.pricing.featured li.plan-header .plan-name {
-  color: #3B8838;
+  color: #9c5c94;
 }
 #contact-us {
   padding: 100px 0 10px;
@@ -848,10 +864,11 @@ color: #3B8838;
 }
 /*Contact*/
  .contact-info{
- background: #98DC95;
+   color: #afa3aa;
+ background: #493d44;
  padding: 50px;
  margin-bottom: 50px;
- background: url('../images/img2.jpg');
+ /*background: url('../images/img2.jpg');*/
 }
 .contact-info address {
 margin-bottom: 20px;
@@ -859,10 +876,21 @@ font-style: normal;
 line-height: 27px;
 font-size: 15px;
 }
-.contact-info .form-control { 
+.contact-info .form-control {
+  color: #493d44;
 padding: 6px 12px;
 border-radius: 0;
 }
+
+.btn.btn-primary-contact {
+  background: #afa3aa;
+  color: #d7d1d5;
+}
+.btn.btn-primary-contact:hover,
+.btn.btn-primary-contact:focus {
+  background: #94858e;
+}
+
  .business-stats:before {
 content: '';
 margin: 17px;
@@ -880,7 +908,7 @@ width: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
-  background: #3B8838;
+  background: #2d4a5a;
 }
 #footer a {
   color: #fff;
